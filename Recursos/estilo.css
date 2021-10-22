@@ -1,0 +1,126 @@
+@font-face{
+
+	font-family: fuenteMia;
+	src: url("Fuente/Hello.ttf");
+}
+
+body{
+	background-color: #333333;
+	font-family: Tahoma;
+	padding: 5em;
+}
+table{
+	width: 100%;
+}
+
+.whiteFont{
+	background-color: white;
+}
+
+.blueFont{
+	background-color: lightskyblue;
+}
+
+.blackFont{
+	background-color: black;
+}
+.cianDkFont{
+	background-color:  darkcyan;
+	border: 1px solid black;
+	color: white;
+}
+
+.textOne{
+	text-align: center;
+	font-size: 50px;
+	color: darkgray;
+}
+
+.textTwo{
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	font-family: fuenteMia;
+	font-weight: bold;
+
+
+}
+
+.textThree{
+	font-size: 16px;
+	text-align: center;
+	color: white;
+
+}
+
+.textFour{
+	font-size: 13px;
+	text-align: left;
+	color: white;
+}
+
+.textFive{
+	font-size: 20px;
+	text-align: left;
+	padding: 20px;
+}
+
+.imageStyle{
+	width: 90%;
+	text-align: center;
+}
+
+.whiteBorder{
+	border: 20px solid white;
+	border-radius: 5px;
+}
+
+.fondoimagen{
+	background-image: url(media/shiba-dog-jump.gif);
+	width: 97%;
+	/*background-repeat: no-repeat;*/
+	text-align: center;
+	background-size: 6.5rem;
+	padding: 20px;
+	font-size: 50px;
+}
+
+.textTitle1{
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+	font-family: fuenteMia;
+}
+
+.textTitle2{
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	font-family: Tahoma;
+}
+
+
+
+.textCenter{
+	text-align: center;
+}
+
+.greyFont{
+	background-color: lightgray;
+	border: 1px solid black;
+	font-size: 15px;
+}
+
+.noMarPadSup{
+	padding-top: 0px;
+	margin-top: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.noMarPadInf{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
